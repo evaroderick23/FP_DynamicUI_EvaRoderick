@@ -263,7 +263,7 @@ GameObject:
   - component: {fileID: 209894790}
   - component: {fileID: 209894789}
   m_Layer: 5
-  m_Name: Bakcground
+  m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -278,7 +278,7 @@ RectTransform:
   m_GameObject: {fileID: 209894787}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.3363377, y: 1.1532921, z: 1.1532921}
+  m_LocalScale: {x: 1.2064189, y: 1.041169, z: 1.041169}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1090838747}
@@ -354,14 +354,14 @@ RectTransform:
   m_GameObject: {fileID: 283824548}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.1911043, y: 0.1911043, z: 0.1911043}
+  m_LocalScale: {x: 0.17083387, y: 0.17083387, z: 0.17083387}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1159935223}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: -383, y: -209}
+  m_AnchoredPosition: {x: -349, y: -188}
   m_SizeDelta: {x: 960, y: 469}
   m_Pivot: {x: 0, y: 0}
 --- !u!114 &283824550
@@ -1266,7 +1266,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
@@ -1544,7 +1544,31 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1847084694}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1976411561}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: UnPause
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1976411561}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Pause
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1847084694
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1651,7 +1675,7 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: c2e17ddc971a1ca4694c0e6a4cd97870, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.6
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -1784,8 +1808,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: -434, y: 314}
-  m_SizeDelta: {x: 768, y: 960}
+  m_AnchoredPosition: {x: -364, y: 197}
+  m_SizeDelta: {x: 540, y: 540}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &2055054246
 MonoBehaviour:
@@ -1807,7 +1831,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 40d97bc3cf7c9b7499769ca51ea8588a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9d03d9944ed728845abf396b5ce7fc3d, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
